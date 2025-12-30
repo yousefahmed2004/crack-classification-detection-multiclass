@@ -14,13 +14,15 @@ Visual representation of the model prediction results and project interface:
 
 <p align="center">
   <img src="screenshots/Screenshot%202025-12-30%20234307.png" width="45%" alt="Detection 3" />
+   <img src="screenshots/Screenshot%202025-12-30%20234338.png" width="45%" alt="Detection 6" 
   
-  <img src="screenshots/Screenshot%202025-12-30%20234257.png" width="45%" alt="Detection 2" />
 </p>
 
 <p align="center">
   <img src="screenshots/Screenshot%202025-12-30%20234331.png" width="45%" alt="Detection 5" />
-  <img src="screenshots/Screenshot%202025-12-30%20234338.png" width="45%" alt="Detection 6" />
+ />
+
+  <img src="screenshots/Screenshot%202025-12-30%20234257.png" width="45%" alt="Detection 2" />
 </p>
 
 ---
