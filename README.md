@@ -1,41 +1,39 @@
-# Crack Classification & Detection (Multiclass) using Mask R-CNN
+# 🏗️ Crack Classification & Detection (Multiclass) using Mask R-CNN
 
 This project implements a state-of-the-art **Instance Segmentation** model to detect and classify structural defects such as cracks, spalling, and rust. Built on the **Detectron2** framework, the model provides pixel-level masks to accurately measure the extent of structural damage.
 
 ---
 
 ## 🔍 Model Detection Results
-The following images demonstrate the model's ability to identify and segment multiple defect classes with high confidence scores.
+The following results demonstrate the model's ability to identify and segment multiple defect classes with high confidence scores.
 
+### 🖼️ Result Highlights
 <p align="center">
-  <img src="screenshots/Screenshot%202025-12-30%20234338.png" width="90%" alt="Detailed Crack Detection" />
+  <img src="screenshots/Screenshot%202025-12-30%20234338.png" width="100%" alt="Detailed Crack Detection" />
 </p>
 
-### 🖼️ Detection Gallery
-<p align="center">
-  <img src="screenshots/Screenshot%202025-12-30%20234251.png" width="48%" alt="Detection Sample 1" />
-  <img src="screenshots/Screenshot%202025-12-30%20234257.png" width="48%" alt="Detection Sample 2" />
-</p>
+### 📊 Detection Gallery
+| Sample Result 1 | Sample Result 2 |
+| :---: | :---: |
+| <img src="screenshots/Screenshot%202025-12-30%20234251.png" width="400"> | <img src="screenshots/Screenshot%202025-12-30%20234257.png" width="400"> |
+| **Sample Result 3** | **Sample Result 4** |
+| <img src="screenshots/Screenshot%202025-12-30%20234307.png" width="400"> | <img src="screenshots/Screenshot%202025-12-30%20234323.png" width="400"> |
 
 <p align="center">
-  <img src="screenshots/Screenshot%202025-12-30%20234307.png" width="48%" alt="Detection Sample 3" />
-  <img src="screenshots/Screenshot%202025-12-30%20234323.png" width="48%" alt="Detection Sample 4" />
-</p>
-
-<p align="center">
-  <img src="screenshots/Screenshot%202025-12-30%20234331.png" width="90%" alt="Detection Sample 5" />
+  <b>Multi-Target Analysis</b><br>
+  <img src="screenshots/Screenshot%202025-12-30%20234331.png" width="100%" />
 </p>
 
 ---
 
 ## 🧠 Model Architecture
-The system utilizes **Mask R-CNN** with a **ResNet-50-FPN** backbone. 
+The system utilizes **Mask R-CNN** with a **ResNet-50-FPN** backbone.
 
 
 
 **Technical Details:**
 * **Architecture:** Mask R-CNN (Instance Segmentation)
-* **Framework:** Detectron2
+* **Framework:** Detectron2 (by Meta AI)
 * **Training Iterations:** 30,000 steps
 * **Dataset:** dacl10k (Deep Analysis of Bridge Construction Defects)
 
