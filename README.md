@@ -27,7 +27,7 @@ The following results demonstrate the model's ability to identify and segment mu
 ---
 
 ## 🧠 Model Architecture
-The system utilizes **Mask R-CNN** with a **ResNet-50-FPN** backbone.
+The system utilizes **Mask R-CNN** to classify 19 class 
 
 
 
