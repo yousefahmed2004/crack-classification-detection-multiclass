@@ -1,0 +1,56 @@
+# 🏗️ Crack Classification & Detection (Multiclass) using Mask R-CNN
+
+This project implements a state-of-the-art **Instance Segmentation** model to detect and classify structural defects in bridges and buildings. Using the **dacl10k** dataset, the model doesn't just draw boxes; it creates precise masks over cracks and damages.
+
+---
+
+## 📸 Project Screenshots
+> **Note:** If images don't appear, ensure they are uploaded in the `/screenshots` folder with exact filenames.
+
+<p align="center">
+  <img src="screenshots/Screenshot%202025-09-18%20160346.png" width="45%" alt="Detection Result 1" />
+  <img src="screenshots/Screenshot%202025-09-18%20160404.png" width="45%" alt="Detection Result 2" />
+</p>
+
+<p align="center">
+  <img src="screenshots/Screenshot%202025-09-18%20175127.png" width="45%" alt="Analysis" />
+  <img src="screenshots/Screenshot%202025-12-30%20234338.png" width="45%" alt="Model Output" />
+</p>
+
+<p align="center">
+  <img src="screenshots/Screenshot%202025-12-30%20234251.png" width="45%" alt="UI Dashboard" />
+  <img src="screenshots/Screenshot%202025-12-30%20234331.png" width="45%" alt="Multiclass Prediction" />
+</p>
+
+---
+
+## 🧠 Model Architecture: Mask R-CNN
+The model is built on the **Detectron2** framework, utilizing a **Mask R-CNN** architecture with a **ResNet-50-FPN** backbone. 
+
+
+
+**Key Features:**
+* **Instance Segmentation:** Precise pixel-level detection of cracks.
+* **Multiclass Classification:** Categorizes defects into multiple classes (Cracks, Spalling, Rust, etc.).
+* **High Performance:** Optimized with a 30,000 iteration training schedule.
+
+---
+
+## 📂 Resources & Downloads
+* **📦 Trained Model (.pth):** [Download from Google Drive](https://drive.google.com/file/d/1A77ToX419hQUbzy2bng6RrGbfsor8bve/view?usp=sharing)
+* **📊 Dataset:** [Access dacl10k Dataset](https://datasetninja.com/dacl10k#download)
+
+---
+
+## 🛠️ Tech Stack
+* **Language:** Python
+* **Framework:** Detectron2 (by Meta AI)
+* **Backbone:** PyTorch
+* **Libraries:** OpenCV, NumPy, Matplotlib
+
+---
+
+## 🚀 How to Run
+1. **Clone the Repo:**
+   ```bash
+   git clone [https://github.com/yousefahmed2004/crack-classification-detection-multiclass.git](https://github.com/yousefahmed2004/crack-classification-detection-multiclass.git)
