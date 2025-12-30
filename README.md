@@ -1,4 +1,4 @@
-# 🏗️ Crack Classification & Detection (Multiclass) using Mask R-CNN
+# Crack Classification & Detection (Multiclass) using Mask R-CNN
 
 This project implements a state-of-the-art **Instance Segmentation** model to detect and classify structural defects such as cracks, spalling, and rust. Built on the **Detectron2** framework, the model provides pixel-level masks to accurately measure the extent of structural damage.
 
